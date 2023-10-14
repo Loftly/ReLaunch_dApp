@@ -1,10 +1,10 @@
-// Components/LotteryActions.js
 import React, { useState, useEffect } from 'react';
 import web3 from '../utilities/web3';
-import contract from '../utilities/contract';
+import { getContract } from '../utilities/contract';
 
 function LotteryActions() {
     const [pot, setPot] = useState(0);
+    const contract = getContract();
 
     useEffect(() => {
         async function fetchPot() {
@@ -12,7 +12,7 @@ function LotteryActions() {
             setPot(web3.utils.fromWei(potValue, 'ether'));
         }
         fetchPot();
-    }, []);
+    }, [contract]);
 
     const buyTicket = async () => {
         const accounts = await web3.eth.getAccounts();
