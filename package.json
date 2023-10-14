@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A dApp for MOMO",
   "main": "index.js",
+  "homepage": "https://moethemartian.space/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,6 +31,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "fork-ts-checker-webpack-plugin": "^9.0.0"
   }
 }
