@@ -1,6 +1,6 @@
 // Components/TokenActions.js
 import React, { useState, useEffect } from 'react';
-import { connectWallet, getCurrentAccount } from '../Utilities/contract';
+import { connectWallet, getCurrentAccount } from '../utilities/contract';
 
 function TokenActions() {
     const [account, setAccount] = useState('');

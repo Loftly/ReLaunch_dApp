@@ -1,12 +1,12 @@
-// Components/BettingActions.js
 import React, { useState } from 'react';
 import web3 from '../utilities/web3';
-import contract from '../utilities/contract';
+import { getContract } from '../utilities/contract';
 
 function BettingActions() {
     const [betAmount, setBetAmount] = useState('');
     const [betChoice, setBetChoice] = useState('');
     const [betOutcome, setBetOutcome] = useState('');
+    const contract = getContract();
 
     const placeBet = async () => {
         const accounts = await web3.eth.getAccounts();
