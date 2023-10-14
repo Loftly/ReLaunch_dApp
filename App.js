@@ -4,10 +4,10 @@ import GlobalStyles from './styles/StyledGlobals';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import HomePage from './Pages/HomePage';
-import LotteryPage from './Pages/LotteryPage';
+import HomePage from './pages/HomePage';
+import LotteryPage from './pages/LotteryPage';
 import MarsMissionsPage from './Pages/MarsMissionsPage';
-import BettingPage from './Pages/BettingPage';
+import BettingPage from './pages/BettingPage';
 
 function App() {
     return (
