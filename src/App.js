@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import LotteryPage from './pages/LotteryPage';
-import MarsMissionsPage from './Pages/MarsMissionsPage';
+import MarsMissionsPage from './src/pages/MarsMissionsPage';
 import BettingPage from './pages/BettingPage';
 
 function App() {
