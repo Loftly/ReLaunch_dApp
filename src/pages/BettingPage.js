@@ -1,6 +1,6 @@
 // Pages/BettingPage.js
 import React from 'react';
-import BettingActions from '../Components/BettingActions';
+import BettingActions from '../components/BettingActions';
 
 function BettingPage() {
     return (

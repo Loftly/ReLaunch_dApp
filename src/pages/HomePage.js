@@ -1,9 +1,9 @@
 // Pages/HomePage.js
 import React from 'react';
-import TokenActions from '../Components/TokenActions';
-import LotteryActions from '../Components/LotteryActions';
-import BettingActions from '../Components/BettingActions';
-import MarsMissionActions from '../Components/MarsMissionActions';
+import TokenActions from '../components/TokenActions';
+import LotteryActions from '../components/LotteryActions';
+import BettingActions from '../components/BettingActions';
+import MarsMissionActions from '../components/MarsMissionActions';
 
 function HomePage() {
     return (

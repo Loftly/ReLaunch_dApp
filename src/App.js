@@ -1,12 +1,12 @@
 // App.js
 import React from 'react';
-import GlobalStyles from './styles/StyledGlobals';
+import './styles/StyledGlobals.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import LotteryPage from './pages/LotteryPage';
-import MarsMissionsPage from './src/pages/MarsMissionsPage';
+import MarsMissionsPage from './pages/MarsMissionsPage';
 import BettingPage from './pages/BettingPage';
 
 function App() {

@@ -1,6 +1,6 @@
 // Pages/LotteryPage.js
 import React from 'react';
-import LotteryActions from '../Components/LotteryActions';
+import LotteryActions from '../components/LotteryActions';
 
 function LotteryPage() {
     return (

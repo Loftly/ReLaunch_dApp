@@ -1,7 +1,7 @@
 // Components/BettingActions.js
 import React, { useState } from 'react';
-import web3 from '../Utilities/web3';
-import contract from '../Utilities/contract';
+import web3 from '../utilities/web3';
+import contract from '../utilities/contract';
 
 function BettingActions() {
     const [betAmount, setBetAmount] = useState('');
