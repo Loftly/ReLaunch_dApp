@@ -1,10 +1,10 @@
 // App.js
 import React from 'react';
+import GlobalStyles from './styles/StyledGlobals';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './Pages/HomePage';
-import AdminPage from './Pages/AdminPage';
 import LotteryPage from './Pages/LotteryPage';
 import MarsMissionsPage from './Pages/MarsMissionsPage';
 import BettingPage from './Pages/BettingPage';
